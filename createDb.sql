@@ -1,0 +1,2 @@
+DROP DATABASE project_4_give_back_db;
+CREATE DATABASE project_4_give_back_db;

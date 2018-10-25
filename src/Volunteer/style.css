@@ -1,0 +1,106 @@
+.volunteer-wrapper {
+    display: grid;
+    grid-template-areas:
+    "a e e e e"
+    "a e e e e"
+    "a e e e e";
+    grid-auto-columns: 1fr;
+}
+
+.volunteer-info-wrapper {
+    grid-area: a;
+    height: 100%;
+    border-right: solid 4px #34344A;
+    background-color:rgba(195, 223, 224, 0.8); 
+    padding: 10px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.volunteer-welcome {
+    font-family: 'Quattrocento', serif;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.volunteer-score {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.volunteer-picture-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.volunteer-picture {
+    border: solid 2px #34344A;
+    border-radius: 100px;
+}
+
+.volunteer-info {
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.volunteer-update-link, .volunteer-delete-link, .volunteer-delete-yes-link, .volunteer-delete-no-link {
+    color: #34344A;
+    text-decoration: none;
+}
+
+.volunteer-update-button, .volunteer-delete-button, .volunteer-delete-yes-button, .volunteer-delete-no-button {
+    margin-top: 20px;
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    color: #34344A;
+    font-weight: 700;
+    padding: 5px;
+    font-variant: small-caps;
+    cursor: pointer;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.volunteer-delete-confirmation-wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.volunteer-delete-confirmation {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+
+.volunteer-delete-yes-button, .volunteer-delete-no-button {
+    margin: 5px;
+    color: red;
+    border-color: red;
+}
+
+@media screen and (max-width:1030px){
+    .volunteer-wrapper {
+        display: block;
+    }
+    .volunteer-info-wrapper {
+        width: 70vw;
+        border-radius: 10px;
+        border: none;
+        margin: 50px auto;
+    }
+    .volunteer-update-button, .volunteer-delete-button, .volunteer-delete-yes-button, .volunteer-delete-no-button {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .volunteer-info-wrapper {
+        width: 90vw;
+    }
+}

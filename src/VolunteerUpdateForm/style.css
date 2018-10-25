@@ -1,0 +1,91 @@
+.volunteer-update-title {
+    font-family: 'Quattrocento', serif;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 0;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.update-wrapper {
+    width: 30vw;
+    margin: 100px auto 200px auto;
+    background: rgba(199, 214, 109, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.password-label, .full-name-label, .dob-label, .email-label, .address-label, .profile-picture-label {
+    font-size: 25px;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.full-name-input, .email-input, .address-input, input[type="email"], input[type="password"], input[type="date"], input[type="file"] {
+    width: 100%;
+    font-size: 20px;
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+.ok-button, .cancel-update-button, .update-button {
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    color: #34344A;
+    padding: 5px;
+    font-variant: small-caps;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+    outline: none;
+}
+
+.cancel-link, .update-link {
+    color: #34344A;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+.validation-message {
+    font-size: 20px;
+    font-style: italic;
+    color: red;
+}
+
+@media screen and (max-width:1200px){
+    .update-wrapper {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .update-wrapper {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width:800px){
+    .update-wrapper {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width:600px){
+    .update-wrapper {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width:400px){
+    .update-wrapper {
+        width: 80vw;
+    }
+}

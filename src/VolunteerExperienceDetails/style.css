@@ -1,0 +1,114 @@
+.volunteer-experience-details-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.volunteer-experience-map-wrapper {
+    margin: 100px auto;
+    width: 360px;
+    height: 360px;
+    border: solid 5px #c7d66d;
+    border-radius: 10px;
+}
+
+.volunteer-experience-details {
+    width: 50%;
+    margin: 100px auto;
+    background: rgba(199, 214, 109, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.experience-delete-button, .back-button {
+    margin: 20px 5px;
+}
+
+.volunteer-experience-title {
+    margin: 0;
+    font-family: 'Quattrocento', serif;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+.volunteer-experience-organization {
+    font-variant: small-caps;
+    font-size: 25px;
+    margin: 10px 0 0 0;
+}
+
+.volunteer-experience-organization-website {
+    font-style: italic;
+    margin: 0;
+}
+
+.volunteer-experience-organization-website-link {
+    color: #34344A;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.volunteer-experience-description-title, .volunteer-experience-address-title, .volunteer-experience-duration-title, .volunteer-experience-rating-title, .volunteer-experience-comment-title {
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 0;
+    padding: 15px 0;
+    text-transform: capitalize;
+}
+
+.volunteer-experience-address-text, .volunteer-experience-description-text, .volunteer-experience-duration-text, .volunteer-experience-rating-stars, .volunteer-experience-comment-text {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.volunteer-experience-description-text {
+    line-height: 25px;
+    padding: 0 30px;
+}
+
+.rating-cancel-button, .comment-submit-button, .rating-submit-button, .experience-delete-button, .back-button, .experience-completed-button {
+    outline: none;
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    color: #34344A;
+    padding: 0 5px 2px 5px;
+    font-variant: small-caps;
+    cursor: pointer;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.rating-cancel-button, .rating-submit-button {
+    margin: 10px;
+}
+
+.experience-completed-button {
+    margin: 20px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #34344A;
+}
+
+.no-comment {
+    font-weight: 700;
+    font-style: italic;
+    margin: 0 auto 10px auto;
+}
+
+@media screen and (max-width:1000px){
+    .volunteer-experience-details-wrapper {
+        display: block;
+    }
+    .volunteer-experience-details {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .volunteer-experience-organization-website-link {
+        font-size: 12px;
+    }
+}

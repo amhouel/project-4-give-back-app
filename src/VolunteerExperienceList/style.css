@@ -1,0 +1,68 @@
+.volunteer-experiences {
+    grid-area: e;
+    width: 50vw;
+    overflow: auto;
+    margin: 100px auto 200px auto;
+    background: rgba(199, 214, 109, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.volunteer-coming-experiences-list, .volunteer-past-experiences-list {
+    margin: 0;
+    padding: 0;
+}
+
+.volunteer-experiences-title {
+    font-family: 'Quattrocento', serif;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+.volunteer-experiences-subtitle {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.volunteer-experience-item {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.no-message {
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+}
+
+.delete-button, .completed-button {
+    outline: none;
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    color: #34344A;
+    padding: 0 5px 2px 5px;
+    font-variant: small-caps;
+    cursor: pointer;
+    font-size: 15px;
+    flex-shrink: 0;
+    margin: 0 10px;
+}
+
+@media screen and (max-width:1000px){
+    .volunteer-experiences {
+        width: 70vw;
+        border-radius: 10px;
+        border: none;
+        margin: 50px auto;
+    }
+}
+
+@media screen and (max-width:800px){
+    .volunteer-experiences {
+        width: 90vw;
+    }
+}

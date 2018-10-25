@@ -1,0 +1,57 @@
+.volunteering-opportunity-link {
+    color: #34344A;
+    text-decoration: none;
+}
+
+.volunteering-opportunity-link:hover {
+    text-decoration: underline;
+}
+
+.volunteering-opportunity-title {
+    margin: 10px 0 0 0;
+    font-family: 'Quattrocento', serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.volunteering-opportunity-organization {
+    font-variant: small-caps;
+    font-size: 20px;
+    margin: 0;
+}
+
+.no-message {
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+}
+
+.volunteering-opportunity-item {
+    list-style-type: none;
+    padding: 10px 10px 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.add-button {
+    outline: none;
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    color: #34344A;
+    padding: 0 5px 2px 5px;
+    font-variant: small-caps;
+    cursor: pointer;
+    font-size: 15px;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+.volunteering-opportunity-detail-link {
+    text-decoration: none;
+    color: #34344A;
+}
+
+.volunteering-opportunity-detail-link:hover {
+    text-decoration: underline;
+}

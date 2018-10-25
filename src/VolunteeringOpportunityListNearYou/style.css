@@ -1,0 +1,65 @@
+.volunteering-opportunities-nearyou-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.volunteering-opportunities-nearyou-map-wrapper {
+    margin: 100px auto;
+    width: 360px;
+    height: 360px;
+    border: solid 5px #c7d66d;
+    border-radius: 10px;
+}
+
+.volunteering-opportunities-nearyou {
+    width: 50vw;
+    margin: 100px auto 200px auto;
+    background: rgba(199, 214, 109, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.nearyou-back-volunteer-button {
+    margin: 20px 10px;
+    outline: none;
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    color: #34344A;
+    padding: 0 5px 2px 5px;
+    font-variant: small-caps;
+    cursor: pointer;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.nearyou-back-volunteer-link {
+    text-decoration: none;
+    color: #34344A;
+}
+
+.volunteering-opportunities-nearyou-list {
+    margin: 0;
+    padding: 0;
+}
+
+.volunteering-opportunities-nearyou-title {
+    font-family: 'Quattrocento', serif;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+.volunteering-opportunities-nearyou-subtitle {
+    font-size: 25px;
+    margin: 20px;
+}
+
+@media screen and (max-width:1000px){
+    .volunteering-opportunities-nearyou-wrapper {
+        display: block;
+    }
+    .volunteering-opportunities-nearyou {
+        width: 90vw;
+    }
+}

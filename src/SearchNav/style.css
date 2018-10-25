@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vw;
+    border-bottom: solid 4px #34344A;
+    background-color:rgba(195, 223, 224, 0.8);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-form {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-nearyou-wrapper {
+    width: 25%;
+    flex-shrink: 0;
+}
+
+.search-zipcode-wrapper {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.search-zipcode-label {
+    width: 60%;
+    flex-shrink: 0;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.search-zipcode {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+}
+
+.search-zipcode-input {
+    width: 75%;
+    flex-shrink: 0;
+    font-size: 20px;
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+}
+
+.zipcode-button {
+    margin-left: 10px;
+    width: 18%;
+    flex-shrink: 0;
+}
+
+.zipcode-button-link {
+    color: #34344A;
+    text-decoration: none;
+}
+
+.search-zipcode-label, .search-nearyou-label {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 5px 0 0;
+    flex-shrink: 0;
+}
+
+.logout-button {
+    width: 8%;
+}
+
+.nearyou-link, .logout-link {
+    text-decoration: none;
+    color: #34344A;
+}
+
+.nearyou-button, .zipcode-button, .logout-button {
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    color: #34344A;
+    padding: 5px;
+    font-variant: small-caps;
+    cursor: pointer;
+    font-size: 20px;
+    flex-shrink: 0;
+    outline: none;
+}
+
+@media screen and (max-width:1300px){
+    nav {
+        display: block;
+    }
+    .search-form {
+        width: 100%;
+    }
+    .search-nearyou-wrapper {
+        width: 25%;
+    }
+    
+    .search-zipcode-wrapper {
+        width: 75%;
+    }
+
+    .search-zipcode-label {
+        width: 70%;
+    }
+    .search-zipcode {
+        width: 30%;
+    }
+    .search-zipcode-input {
+        width: 70%;
+    }
+    .logout-button {
+        width: 10%;
+        margin: 20px auto;
+    }
+} 
+
+@media screen and (max-width:1000px){
+    .logout-button {
+        width: 15%;
+    }
+    .search-form {
+        display: block;
+    }
+    .search-zipcode-wrapper, .search-nearyou-wrapper {
+        width: 100%;
+    }
+    .nearyou-button {
+        width: 6%;
+    }
+}
+@media screen and (max-width:800px){
+    .search-zipcode-wrapper {
+        display: block;
+    }
+    .search-zipcode-label {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .search-zipcode {
+        width: 60%;
+        margin: 10px auto;
+    }
+    .nearyou-button {
+        width: 10%;
+    }
+    .logout-button {
+        width: 20%;
+    }
+}
+@media screen and (max-width:530px){
+    .logout-button {
+        width: 35%;
+    }
+    .nearyou-button {
+        width: 15%;
+    }
+    .search-zipcode {
+        width: 90%;
+    }
+}

@@ -1,0 +1,12 @@
+.volunteering-opportunities-map-title-wrapper {
+    width: 10px;
+    height: 10px;
+}
+
+.volunteering-opportunities-map-title-wrapper .volunteering-opportunities-map-title {
+    display: none;
+}
+
+.volunteering-opportunities-map-title-wrapper:hover .volunteering-opportunities-map-title {
+    display: block;
+}

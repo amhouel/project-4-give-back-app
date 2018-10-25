@@ -1,0 +1,76 @@
+.login-wrapper {
+    width: 30vw;
+    margin: 100px auto;
+    background: rgba(199, 214, 109, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.username-label, .password-label {
+    font-size: 25px;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.username-input, .password-input {
+    width: 100%;
+    font-size: 20px;
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.username-input:focus, .password-input:focus {
+    outline: none;
+}
+
+.login-button {
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    color: #34344A;
+    padding: 5px;
+    font-variant: small-caps;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+    outline: none;
+}
+
+.register-link-wrapper {
+    margin-top: 50px;
+}
+
+.register-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: #34344A;
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+@media screen and (max-width:1200px){
+    .login-wrapper {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .login-wrapper {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width:800px){
+    .login-wrapper {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width:600px){
+    .login-wrapper {
+        width: 70vw;
+    }
+}

@@ -1,0 +1,50 @@
+.volunteering-opportunity-detail-nearyou-link {
+    color: #34344A;
+    text-decoration: none;
+}
+
+.volunteering-opportunity-detail-nearyou-link:hover {
+    text-decoration: underline;
+}
+
+.volunteering-opportunity-nearyou-title {
+    margin: 10px 0 0 0;
+    font-family: 'Quattrocento', serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.volunteering-opportunity-nearyou-organization {
+    font-variant: small-caps;
+    font-size: 20px;
+    margin: 0;
+}
+
+.no-message {
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+}
+
+.nearyou-add-button {
+    outline: none;
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    color: #34344A;
+    padding: 0 5px 2px 5px;
+    font-variant: small-caps;
+    cursor: pointer;
+    font-size: 15px;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+.volunteering-opportunity-detail-nearyou-link {
+    text-decoration: none;
+    color: #34344A;
+}
+
+.volunteering-opportunity-detail--nearyou-link:hover {
+    text-decoration: underline;
+}

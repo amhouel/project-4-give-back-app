@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #34344A;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('./rawpixel-1054576-unsplash.jpg');
+    background-position-y: 200px;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #BCD979;
+    padding: 0;
+    margin: 0;
+    border-bottom: solid 4px #34344A;
+    text-align: center;
+}
+
+.header-title {
+    font-family: 'Quattrocento', serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.header-subtitle {
+    margin: 0;
+    padding-bottom: 50px;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-style: italic;
+}

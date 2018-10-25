@@ -1,0 +1,21 @@
+.volunteering-opportunity-feedback {
+    border: solid 2px #34344A;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.date {
+    font-style: italic;
+    margin: 0;
+}
+
+.volunteering-opportunity-rating-title, .volunteering-opportunity-comment-title {
+    margin: 0;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.volunteering-opportunity-rating, .volunteering-opportunity-comment {
+    margin: 0;
+}
