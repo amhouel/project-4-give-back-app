@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import "./style.css";
 import Login from '../Login';
 import Register from '../Register';
@@ -14,19 +14,9 @@ import VolunteeringOpportunityDetailsNearYou from '../VolunteeringOpportunityDet
 import SearchNav from '../SearchNav';
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      token: false || localStorage.getItem('user-jwt')
-    }
-  }
 
   logOut = () => {
     localStorage.clear();
-    this.setState({
-      token: false
-    })
   }
 
   render() {
