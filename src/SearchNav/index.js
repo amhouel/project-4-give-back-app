@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { withRouter } from "react-router";
 import "./style.css";
+import { config } from '../config.js';
 
 class SearchNav extends Component {
     constructor(props) {
@@ -36,7 +37,8 @@ class SearchNav extends Component {
     }
 
     nearYouSearch = async() => {
-        const url = 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyAYweaxEaQXTdEVV-L-JCoBC_7DFCZL404';
+        const API_KEY = config.REACT_APP_API_KEY;
+        const url = `https://www.googleapis.com/geolocation/v1/geolocate?key=${API_KEY}`;
         const response = await fetch (url, {
             method:"POST",
             headers: {
