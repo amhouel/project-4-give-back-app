@@ -133,18 +133,24 @@ class Register extends Component {
                     <form className="register-form" onSubmit={this.isValid}>
                         <label className="full-name-label">Full Name:</label>
                         <input className="full-name-input" type="text" placeholder="Full name" name="fullName" value={this.state.fullName} onChange={this.updateInput}/>
+                        
                         <label className="dob-label">Date of Birth:</label>
                         <input type="date" name="dob" value={this.state.dob} onChange={this.updateInput}/>
+                        
                         <label className="address-label">Address:</label>
                         <input className="address-input" type="text" name="address" placeholder="Address" value={this.state.address} onChange={this.updateInput}/>
+                        
                         <label className="email-label">Email:</label>
                         <input type="email" name="email" placeholder="Email" value={this.state.email} onChange={this.updateInput}/>
                         <p className="validation-message">{this.state.emailMessage}</p>
+                        
                         <label className="profile-picture-label">Profile Picture:</label>
                         <input type="file" name="profilePicture" onChange={this.updateFile}/>
+                        
                         <label className="username-label">Username:</label>
                         <input className="username-input" type="text" name="username" placeholder="Username" value={this.state.username} onChange={this.updateInput}/>
                         <p className="validation-message">{this.state.usernameMessage}</p>
+                        
                         <label className="password-label">Password:</label>
                         <input type="password" name="password" placeholder="Password" value={this.state.password} onChange={this.updateInput}/>
                         <p className="validation-message">{this.state.passwordMessage}</p>
