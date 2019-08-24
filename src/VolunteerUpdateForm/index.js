@@ -86,6 +86,7 @@ class VolunteerUpdateForm extends Component {
   }
 
   //Code from "HTML5 upload (xhr) to Cloudinary" Codepen
+  //use molter in express route call upload to parse
   uploadFile = async() => {
     const url = 'https://api.cloudinary.com/v1_1/amhouel/upload';
     const xhr = new XMLHttpRequest();
